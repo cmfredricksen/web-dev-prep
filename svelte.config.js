@@ -8,7 +8,9 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		lib: "src/lib"
+		files: {
+			lib: "src/lib"
+		}
 	},
 
 	preprocess: [mdsvex(mdsvexConfig)]
