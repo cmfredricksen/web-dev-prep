@@ -1,0 +1,1 @@
+<p>&copy; Web Dev Prep &middot; All Rights Reserved &clubs;</p>
