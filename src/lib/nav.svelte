@@ -1,4 +1,5 @@
 <script>
+    import { page } from "$app/stores"
     const links = [
         {
             path: "/",
@@ -6,7 +7,7 @@
         },
         {
             path: "/about-wdp",
-            title: "About Web Dev Prep"
+            title: "About"
         },
         {
             path: "/posts",
@@ -19,7 +20,7 @@
 
 <nav>
     {#each links as {path, title}}
-    <a href={path}>{title}</a>
+    <a class:active={$page.url.pathname === path} href={path}>{title}</a>
     {/each}
 </nav>
 
@@ -34,5 +35,9 @@
     }
     a:hover {
         color: var(--clr-grey-blue-xlt);
+    }
+    .active {
+        color: var(--clr-grey-blue-xlt);
+        text-decoration: underline;
     }
 </style>

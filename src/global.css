@@ -33,8 +33,20 @@ h1, h2, h3 {
 
 }
 
+ul {
+    padding: 1.5rem;
+}
+
+section {
+    padding: 1rem 0;
+}
+
 a, li {
     font-family: var(--font-accent);
+}
+ 
+li {
+    list-style-position: inside;
 }
 
 p {

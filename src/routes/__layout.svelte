@@ -4,8 +4,22 @@
     import Footer from "$lib/footer.svelte";
 </script>
 
-<Header />
+<svelte:head>
+    <title>Web Dev Prep</title>
+</svelte:head>
 
-<slot />
+<Header />
+<div class="wrapper">
+    <slot />
+</div>
 
 <Footer />
+
+<style>
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        border-left: 2px dotted var(--clr-black-blue);
+    }
+</style>
