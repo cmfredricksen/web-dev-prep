@@ -49,3 +49,27 @@ npm run build
    ```git
    git add -A && git commit -m "message about commit" && git push
    ```
+
+### Deploy to Netlify
+
+1. Sign up for a free Netlify account at [netlify.com](https://www.netlify.com/)
+2. Sign in and go to your team overview page
+3. Click on **add new site**
+4. Choose _Import an existing project_
+5. Pick GitHub to get a list of your repositories
+6. Choose the repository from the list
+7. Click to deploy, you can change the name once the site is built.
+8. It will take a few minutes for the site to be built and deployed.
+9. Once it is built go visit the site to make sure it works
+10. If you want you can change the name of your site then click on _Site Settings_ on your sites overview page. On the right hand side you will see your site's name and where to change it.
+
+### Bonus
+
+1. Copy the url to your website
+2. Go to your GitHub repo for the site
+3. In the right hand column click _About_ settings
+4. There is a place to add the link to your site.
+
+### Going forward
+
+Whenever you make changes to your website and push the changes to GitHub, Netlify will rebuild your site and re-deploy it. It may take 2-5 minutes, but once it is done the changes will be reflected on your site.
