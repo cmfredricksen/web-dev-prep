@@ -52,3 +52,35 @@ li {
 p {
     font-family: var(--font-text);
 }
+
+pre {
+    margin: 1rem auto;
+    background-color: var(--clr-grey-blue);
+    padding: 1.5rem;
+    width: 70%;
+    border-radius: .5rem;
+    color: var(--clr-grey-blue-xlt);
+    border: 2px solid var(--clr-black-blue);
+}
+
+table {
+    border: 1px solid var(--clr-black-blue);
+    display: flex;
+}
+
+thead tr {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+table td, table th {
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid var(--clr-black-blue);
+}
+
+table td:nth-child(odd) {
+    background-color: var(--clr-grey-blue);
+}
+
+
