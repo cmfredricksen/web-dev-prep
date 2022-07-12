@@ -55,12 +55,12 @@ p {
 
 pre {
     margin: 1rem auto;
-    background-color: var(--clr-grey-blue);
+    background-color: var(--clr-black-blue);
     padding: 1.5rem;
     width: 70%;
     border-radius: .5rem;
     color: var(--clr-grey-blue-xlt);
-    border: 2px solid var(--clr-black-blue);
+    border: 2px solid var(--clr-grey-blue-med);
 }
 
 table {

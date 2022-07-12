@@ -31,4 +31,4 @@ To signify the library add the files element as shown below.
 
 For an example of the config file and all of the options go to the [SvelteKit Docs](https://kit.svelte.dev/docs/configuration)
 
-Once you add the files value to the config, then any component within that file is accessible using $lib.
+Once you add the files value to the config, then any component within that folder is accessible using $lib.

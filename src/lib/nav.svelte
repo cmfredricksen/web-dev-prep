@@ -6,7 +6,7 @@
             title: "Home"
         },
         {
-            path: "/about-wdp",
+            path: "/about",
             title: "About"
         },
         {
