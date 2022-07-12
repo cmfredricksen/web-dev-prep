@@ -61,7 +61,7 @@ npm run build
 7. Click to deploy, you can change the name once the site is built.
 8. It will take a few minutes for the site to be built and deployed.
 9. Once it is built go visit the site to make sure it works
-10. If you want you can change the name of your site then click on _Site Settings_ on your sites overview page. On the right hand side you will see your site's name and where to change it.
+10. If you want you can change the name of your site just click on _Site Settings_ on your site's overview page. On the right hand side you will see your site's name and where to change it.
 
 ### Bonus
 
