@@ -11,8 +11,4 @@
 <slot />
 
 <style>
-    code {
-        padding: 1rem 0;
-        
-    }
 </style>

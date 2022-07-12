@@ -30,13 +30,27 @@
 <ul>
     {#each dateSorted as { path, metadata: {title, tags, date}}}
         <li>
-            <a href={`/posts/${path.replace(".md", "")}`}>{title}</a>
-            <p class="date">{ new Date(date).toDateString() }</p>
-            <p>
+            <a class="title-link" href={`/posts/${path.replace(".md", "")}`}>{title}</a>
+            <small class="date">{ new Date(date).toDateString() }</small>
+            <small>
+                <p>
+                    tags: 
                 {#each tags as tag}
-                    <a class="tag" href={`/tags/${tag}`}>#{tag}</a>
-                {/each}
-            </p>
+                        <a class="tag" href={`/tags/${tag}`}> #{tag} </a>
+                        {/each}
+                </p>
+            </small>
         </li>
     {/each}
 </ul>
+
+<style>
+    li {
+        margin: .5rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .title-link {
+        margin: .75rem 0 .5rem;
+    }
+</style>
