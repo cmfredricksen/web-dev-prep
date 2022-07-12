@@ -1,0 +1,129 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ],
+    "css": [
+      "immutable/assets/entries/pages/__layout.svelte-5c4b1ca9.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ]
+  },
+  "src/routes/posts/Layout.svelte": {
+    "file": "entries/pages/posts/Layout.svelte.js",
+    "src": "src/routes/posts/Layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ],
+    "css": [
+      "immutable/assets/entries/pages/posts/Layout.svelte-ecb339a9.css"
+    ]
+  },
+  "src/routes/posts/deploy-netlify.md": {
+    "file": "entries/pages/posts/deploy-netlify.md.js",
+    "src": "src/routes/posts/deploy-netlify.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-51f42298.js",
+      "src/routes/posts/Layout.svelte"
+    ]
+  },
+  "src/routes/posts/index.svelte": {
+    "file": "entries/pages/posts/index.svelte.js",
+    "src": "src/routes/posts/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ],
+    "dynamicImports": [
+      "src/routes/posts/deploy-netlify.md",
+      "src/routes/posts/sveltekit-configs.md",
+      "src/routes/posts/vim-key-bindings.md"
+    ],
+    "css": [
+      "immutable/assets/entries/pages/posts/index.svelte-42f10ef3.css"
+    ]
+  },
+  "src/routes/posts/sveltekit-configs.md": {
+    "file": "entries/pages/posts/sveltekit-configs.md.js",
+    "src": "src/routes/posts/sveltekit-configs.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-51f42298.js",
+      "src/routes/posts/Layout.svelte"
+    ]
+  },
+  "src/routes/posts/vim-key-bindings.md": {
+    "file": "entries/pages/posts/vim-key-bindings.md.js",
+    "src": "src/routes/posts/vim-key-bindings.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-51f42298.js",
+      "src/routes/posts/Layout.svelte"
+    ],
+    "css": [
+      "immutable/assets/entries/pages/posts/vim-key-bindings.md-52c1436a.css"
+    ]
+  },
+  "src/routes/tags/[tag].svelte": {
+    "file": "entries/pages/tags/_tag_.svelte.js",
+    "src": "src/routes/tags/[tag].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-51f42298.js"
+    ],
+    "dynamicImports": [
+      "src/routes/posts/deploy-netlify.md",
+      "src/routes/posts/sveltekit-configs.md",
+      "src/routes/posts/vim-key-bindings.md"
+    ]
+  },
+  "_index-51f42298.js": {
+    "file": "immutable/chunks/index-51f42298.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "immutable/chunks/hooks-d259abab.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
