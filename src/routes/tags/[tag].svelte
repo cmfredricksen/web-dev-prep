@@ -28,7 +28,6 @@
 <script>
     export let filteredPosts;
     export let tag;
-    console.log(filteredPosts)
 </script>
 
 <h1 class="title">#{tag}</h1>

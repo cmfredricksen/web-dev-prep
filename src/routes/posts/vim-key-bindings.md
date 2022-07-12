@@ -31,21 +31,20 @@ The way that Vim works is different than today's typical text editor, in that th
 
 ### Some Basic Key Bindings
 
-| key | command | movement |
+|  |  |  |
 |---|---|---|
-| y | yank | copies selected text to Vim clipboard |
-| yy | yank line | copies line }
-| p | put | pastes contents of Vim clipboard one line below |
-| shift + p | put above | pastes contents of Vim clipboard one line above |
-| d | delete | deletes selected text, copies to Vim clipboard |
-| dd | delete line | deletes line |
+| KEY | COMMAND | MOVEMENT |
 | i | insert | inserts before the cursor |
+| esc | normal mode | switches to normal mode |
 | a | append | appends after the cursor |
 | c | change | changes selected text |
 | r | replace | replaces character under cursor |
-
-| key | command | movement |
-|---|---|---|
+| d | delete | deletes selected text, copies to Vim clipboard |
+| dd | delete line | deletes line |
+| y | yank | copies selected text to Vim clipboard |
+| yy | yank line | copies line |
+| p | put | pastes contents of Vim clipboard one line below |
+| shift + p | put above | pastes contents of Vim clipboard one line above |
 | w | word | moves cursor forward 1 word, lands on first letter |
 | b | back | moves back 1 word, lands on first letter |
 | e | end | moves forward 1 word, lands on last letter |
@@ -55,21 +54,31 @@ The way that Vim works is different than today's typical text editor, in that th
 | $ | end of line | moves cursor to end of line |
 ---
 
-
 > Puncuation and symbols are included as words when navigating
 
 ### Combining Adds Power
 
 You can also combine these letters allowing you to get a lot done with a few key presses. Push them one at a time! For example:
 
-d b 3 = delete three words back
+- **d3b** = delete three words back
+- **ci"** = change inside of quotes
+- **ci]** = change inside of brackets
 
 ## My Favorite Key Bindings
 
-I want to share my most oft used key bindings, they make life easier!
+I want to share my most oft used key bindings, they make life easier! Use these when your editor is in **Normal Mode**.
 
-1. o / shift + o : Both of these commands insert a line, o inserts one below the cursor, shift + o inserts one above the cursor. _I use these ALL THE TIME!
-2. shift + v : selects the line your cursor is on. Once I select a line I can yank it, delete it, expand my selection up or down and change it also.
+1. **o / shift + o :** Both of these commands insert a line, o inserts one below the cursor, shift + o inserts one above the cursor. _I use these ALL THE TIME!_
+2. **shift + v :** selects the line your cursor is on. Once I select a line I can yank it, delete it, expand my selection up or down and change it also.
+
+<style>
+    p {
+        margin: .5rem 0;
+    }
+    li {
+        margin: 1rem;
+    }
+</style>
 
 
 

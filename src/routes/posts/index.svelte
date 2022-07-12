@@ -50,7 +50,19 @@
         display: flex;
         flex-direction: column;
     }
-    .title-link {
+    .title-link  {
         margin: .75rem 0 .5rem;
+        color: var(clr-black-blue);
+    }
+    .title-link:hover {
+        color: var(--clr-grey-blue-med);
+    }
+    .tag {
+        text-decoration: none;
+        color: var(--clr-black-blue-lt);
+        font-weight: bold;
+    }
+    .tag:hover {
+        color: var(--clr-grey-blue-med);
     }
 </style>

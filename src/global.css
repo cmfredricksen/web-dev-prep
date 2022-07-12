@@ -64,23 +64,24 @@ pre {
 }
 
 table {
-    border: 1px solid var(--clr-black-blue);
     display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    justify-content: stretch;
+    /* border: 2px solid var(--clr-black-blue); */
+    border-spacing: 0;
 }
 
-thead tr {
-    display: flex;
-    /* justify-content: space-around; */
+
+table td {
+    border: 2px solid var(--clr-black-blue);
+    padding: .25rem .5rem;
+    font-weight: 700;
+    font-family: var(--font-accent);
 }
 
-table td, table th {
-    /* display: flex; */
-    /* flex-direction: column; */
-    border: 1px solid var(--clr-black-blue);
-}
-
-table td:nth-child(odd) {
-    background-color: var(--clr-grey-blue);
+table tr:nth-child(even) {
+    background-color: var(--clr-grey-blue-xlt);
 }
 
 
