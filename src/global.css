@@ -34,6 +34,10 @@ h1, h2, h3 {
 
 }
 
+h3 {
+    margin: 1rem 0;
+}
+
 ul {
     padding: 1.5rem;
 }
@@ -52,7 +56,7 @@ a {
 }
 
 a:hover {
-    color: darkred;
+    color: darkmagenta;
 }
 
 p a {
@@ -70,11 +74,8 @@ p {
 pre {
     margin: 1rem auto;
     background-color: var(--clr-black-blue);
-    padding: 1.5rem;
-    width: 70%;
-    border-radius: .5rem;
+    padding: .5rem;
     color: var(--clr-grey-blue-xlt);
-    border: 2px solid var(--clr-grey-blue-med);
 }
 
 table {
@@ -82,7 +83,6 @@ table {
     flex-direction: column;
     margin: 1rem 0;
     justify-content: stretch;
-    /* border: 2px solid var(--clr-black-blue); */
     border-spacing: 0;
 }
 
