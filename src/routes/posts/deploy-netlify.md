@@ -72,4 +72,4 @@ npm run build
 
 ### Going forward
 
-Whenever you make changes to your website and push the changes to GitHub, Netlify will rebuild your site and re-deploy it. It may take 2-5 minutes, but once it is done the changes will be reflected on your site.
+Whenever you make changes to your website and push the changes to GitHub, Netlify will rebuild your site and re-deploy it. It may take a minute or two, but once it is done the changes will be reflected on your site.
