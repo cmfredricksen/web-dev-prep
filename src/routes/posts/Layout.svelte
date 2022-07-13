@@ -4,6 +4,10 @@
     export let tags;
 </script>
 
+<svelte:head>
+    <title>Web Dev Prep | {title}</title>
+</svelte:head>
+
 <div class="title-bar">
     <h2>{title}</h2>
     <p>{new Date(date).toDateString()}</p>

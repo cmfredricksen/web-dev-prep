@@ -4,9 +4,6 @@
     import Footer from "$lib/footer.svelte";
 </script>
 
-<svelte:head>
-    <title>Web Dev Prep</title>
-</svelte:head>
 
 <Header />
 <div class="wrapper">

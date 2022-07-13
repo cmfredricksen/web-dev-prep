@@ -27,6 +27,10 @@
     })
 </script>
 
+<svelte:head>
+    <title>Web Dev Prep | Posts</title>
+</svelte:head>
+
 <ul>
     {#each dateSorted as { path, metadata: {title, tags, date}}}
         <li>

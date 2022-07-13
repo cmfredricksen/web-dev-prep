@@ -6,7 +6,7 @@ tags:
 - configuration 
 ---
 
-This is how to deploy your SvelteKit app using Netlify. You will need to have your app's code in a repository on GitHub. If you need help getting started with Git and/or GitHub please visit my site [Beginner's Guide to Git & GitHub](https://technotesbycmfred.netlify.app/).
+This is how to deploy your SvelteKit app using Netlify. You will need to have your app's code in a repository on GitHub. If you need help getting started with Git and/or GitHub please visit my site <a href="https://technotesbycmfred.netlify.app" target="_blank">Beginners Guide to Git & GitHub</a>.
 
 ### Prepare the Code
 

@@ -1,3 +1,10 @@
+<svelte:head>
+    <title>
+        Web Dev Prep | Home
+    </title>
+</svelte:head>
+
+
 <h2>
     Welcome to Web Dev Prep
 </h2>

@@ -43,6 +43,19 @@ section {
 
 a, li {
     font-family: var(--font-accent);
+    color: var(--clr-black-blue-lt);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+}
+
+p a {
+    text-decoration: underline;
 }
  
 li {
