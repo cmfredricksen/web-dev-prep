@@ -59,7 +59,7 @@
         color: var(clr-black-blue);
     }
     .title-link:hover {
-        color: darkmagenta;
+        color: var(--clr-accent);
     }
     .tag {
         text-decoration: none;
@@ -67,6 +67,6 @@
         font-weight: bold;
     }
     .tag:hover {
-        color: darkmagenta;
+        color: var(--clr-accent);
     }
 </style>

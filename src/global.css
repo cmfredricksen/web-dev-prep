@@ -14,6 +14,8 @@
     --clr-grey-blue-lt: #bed4c9;
     --clr-grey-blue-xlt: #eaf1f8;
 
+    --clr-accent: #8b008b;
+
 
 }
 
@@ -53,7 +55,7 @@ a {
 }
 
 a:hover {
-    color: darkmagenta;
+    color: var(--clr-accent);
 }
 
 p a {
