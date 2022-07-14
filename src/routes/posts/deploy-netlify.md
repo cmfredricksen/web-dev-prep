@@ -13,18 +13,22 @@ This is how to deploy your SvelteKit app using Netlify. You will need to have yo
 First you will have to prepare the code to be ready for Netlify.
 
 1. Install the [netlify adapter](https://github.com/sveltejs/kit/tree/master/packages/adapter-netlify)
-   ```js
-   npm i -D @sveltejs/adapter-netlify
-   ```
+
+<div class="code-box">
+  <p>npm i -D @sveltejs/adapter-netlify</p>
+</div>
+
 2. Configure SvelteKit to use the Netlify Adapter
    In **svelte.config.js:**
 
 Before you add the Netlify adapter you will have the auto adapter that is installed when you initialize your SvelteKit project. Once you install the Netlify adapter you will need to change the svelte.config.js file, which you can do by switching out the import source as shown below. _Simply replace adapter-auto with adapter-netlify_.
 At the Netlify adapter GitHub page they have an example including options you can use, but it will work as is.
 
-```js
-import adapter from '@sveltejs/adapter-netlify';
+  <div class="code-box">
+  <p>import adapter from "sveltejs/adapter-netlify";</p>
+  </div>
 
+```js
 export default {
   kit: {
     adapter: adapter()
@@ -46,9 +50,13 @@ npm run build
 ```
 
 5. Commit and push your changes to your GitHub repo.
-   ```git
+
+<div class="code-box">
+<p>
    git add -A && git commit -m "message about commit" && git push
-   ```
+</p>
+</div>
+
 
 ### Deploy to Netlify
 

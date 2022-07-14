@@ -18,4 +18,10 @@
     p {
         margin: 1rem;
     }
+
+    @media only screen and (max-width: 720px) {
+        h2 {
+            text-align: center;
+        }
+    }
 </style>

@@ -6,7 +6,7 @@
 
 
 <h2>
-    Welcome to Web Dev Prep
+    Welcome to Web Dev Prep School
 </h2>
 
 <section>
@@ -25,3 +25,11 @@
     <li>Version Control, Git, GitHub</li>
     <li>Deployment, Continuous Integration</li>
 </ul>
+
+<style>
+    @media only screen and (max-width: 720px) {
+        h2 {
+            text-align: center;
+        }
+    }
+</style>

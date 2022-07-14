@@ -66,9 +66,11 @@ npm install
 ### Optional Step!
 You can initiate a Git Repository if you want:
 
-```bash
+<div class="code-box">
+<p>
 git init && git add -A && git commit -m "initial commit"
-```
+</p>
+</div>
 
 ### Open Code Editor && Open Server
 Next we open our code editor and then open the server. I do it in this order because I like to run the server in my Windows Terminal and use the built-in terminal for everything else. Open in VSCode:

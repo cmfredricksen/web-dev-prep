@@ -19,4 +19,11 @@
         padding: 1rem 2rem;
         border-left: 2px dotted var(--clr-black-blue);
     }
+
+    @media only screen and (max-width: 720px) {
+        .wrapper {
+            padding: .5rem 0;
+            border-left: none;
+        }
+    }
 </style>

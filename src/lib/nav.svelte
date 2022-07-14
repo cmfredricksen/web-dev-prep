@@ -40,4 +40,15 @@
         color: var(--clr-grey-blue-xlt);
         text-decoration: underline;
     }
+
+    @media only screen and (max-width: 720px) {
+        nav {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 2rem;
+        }
+        a {
+            margin: 1rem auto;
+        }
+    }
 </style>
