@@ -34,7 +34,9 @@ mkdir my-app
 
 Then you can move into the folder:
 
-`cd my-app`
+```bash
+cd my-app
+```
 
 Once you are in the directory you want, you are going to initialize your project:
 
