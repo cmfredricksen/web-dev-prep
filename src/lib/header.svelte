@@ -10,7 +10,7 @@
         <h1>Web Dev Prep</h1>
     </a>
     <Nav />
-    <button on:click={() => toggle.set(!$toggle)} class="menu-button">Menu</button>
+    <button on:click={() => toggle.set(!$toggle)} class="menu-button">&equiv; Menu</button>
     {#if $toggle}
         <DropdownMenu />
     {/if}
