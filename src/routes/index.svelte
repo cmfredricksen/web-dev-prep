@@ -26,7 +26,29 @@
     <li>Deployment, Continuous Integration</li>
 </ul>
 
+<h3>Other Sources:</h3>
+<div class="outgoing-links">
+    <button>
+        <a href="https://technotesbycmfred.netlify.app/" target="_blank">
+            Git & GitHub for Beginners
+        </a>
+    </button>
+    <small>A beginner's guide to version control written and depolyed by me, opens in a new tab.</small>
+
+</div>
+
 <style>
+    .outgoing-links {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: .5rem 0;
+        border-left: 5px solid var(--clr-black-blue);
+        border-radius: .5rem;
+        justify-content: center;
+        padding: 1rem;
+        background-color: var(--clr-black-blue-25);
+    }
     @media only screen and (max-width: 720px) {
         h2 {
             text-align: center;

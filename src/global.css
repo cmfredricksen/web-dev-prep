@@ -6,10 +6,8 @@
     --font-accent: "Ubuntu Mono", monospace;
 
     --clr-black-blue: #163752;
+    --clr-black-blue-25: #16375233;
     --clr-black-blue-lt: #254b70;
-
-    --clr-grey-blue: #6699cc;
-    --clr-grey-blue-med: #3e7cb9;
 
     --clr-grey-blue-lt: #bed4c9;
     --clr-grey-blue-xlt: #eaf1f8;
@@ -68,6 +66,29 @@ li {
 
 p {
     font-family: var(--font-text);
+}
+
+small {
+    font-family: var(--font-text);
+    font-weight: bold;
+}
+
+button {
+    margin: 1rem auto;
+    padding: 1rem .75rem;
+    border-radius: .25rem;
+    border: none;
+    background-color: var(--clr-black-blue);
+    font-size: 1.25rem;
+}
+
+button a {
+    color: var(--clr-grey-blue-lt);
+
+}
+
+button a:hover {
+    color: var(--clr-grey-blue-xlt);
 }
 
 pre {
