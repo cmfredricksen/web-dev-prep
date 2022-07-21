@@ -131,10 +131,21 @@ table tr:nth-child(even) {
     background-color: var(--clr-grey-blue-xlt);
 }
 
+.outgoing-links-box {
+    display: flex;
+    justify-content: space-around;
+        
+}
+
 @media only screen and (max-width: 720px) {
+    .outgoing-links-box {
+        flex-direction: column;
+    }
+    
     pre {
         word-wrap: normal;
     }
 }
+
 
 

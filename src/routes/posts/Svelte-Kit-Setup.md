@@ -89,4 +89,13 @@ npm run dev -- --open
 
 And that's it! Your project is open and running. 
 
+### Other Sources
+<script>
+    import OutgoingLink from "$lib/components/outgoing-link.svelte";
+</script>
+<div class="outgoing-links-box">
+    <OutgoingLink title="SvelteKit Configs" path="./sveltekit-configs" description="Start setting up your svelte.config file by adding a lib." />
+    <OutgoingLink title="SvelteKit Docs" path="https://kit.svelte.dev/docs/introduction" description="Go straight to the source to get the details, I have spent a lot of time reading the docs!" />
+</div>
+
 

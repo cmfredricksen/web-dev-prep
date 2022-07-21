@@ -41,15 +41,7 @@
 </div>
 
 <style>
-    .outgoing-links-box {
-        display: flex;
-        justify-content: space-around;
-        
-    }
     @media only screen and (max-width: 720px) {
-        .outgoing-links-box {
-            flex-direction: column;
-        }
         h2 {
             text-align: center;
         }
