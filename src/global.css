@@ -94,7 +94,7 @@ button a:hover {
 
 pre {
     margin: 1rem auto;
-    background-color: var(--clr-black-blue);
+    background-color: var(--clr-black-blue-50);
     padding: .5rem;
     color: var(--clr-grey-blue-xlt);
     line-height: 1.5;
@@ -102,7 +102,7 @@ pre {
 
 .code-box {
     margin: 1rem auto;
-    background-color: var(--clr-black-blue);
+    background-color: var(--clr-black-blue-50);
     padding: .5rem;
     color: var(--clr-grey-blue-xlt);
 }

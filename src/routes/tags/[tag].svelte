@@ -43,3 +43,18 @@
    {/each} 
 
 </ul>
+
+<style>
+    h1 {
+        color: var(--clr-grey-blue-xlt);
+        background-color: var(--clr-black-blue-50);
+        text-align: center;
+        padding: 1rem;
+        font-family: var(--font-accent);
+        font-weight: normal;
+    }
+    li {
+        margin: 1.5rem 0;
+        background-color: var(--clr-black-blue-25);
+    }
+</style>
