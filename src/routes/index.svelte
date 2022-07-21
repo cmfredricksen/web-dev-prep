@@ -1,3 +1,7 @@
+<script>
+    import OutgoingLink from "$lib/components/outgoing-link.svelte";
+</script>
+
 <svelte:head>
     <title>
         Web Dev Prep | Home
@@ -27,29 +31,25 @@
 </ul>
 
 <h3>Other Sources:</h3>
-<div class="outgoing-links">
-    <button>
-        <a href="https://technotesbycmfred.netlify.app/" target="_blank">
-            Git & GitHub for Beginners
-        </a>
-    </button>
-    <small>A beginner's guide to version control written and depolyed by me, opens in a new tab.</small>
 
+<div class="outgoing-links-box">
+
+    <OutgoingLink path="https://technotesbycmfred.netlify.app" title="Git & GitHub for Beginners" description="A beginner's guide to version control using Git & Github, deployed by me using Netlify." />
+    
+    <OutgoingLink path="https://freecodecamp.org" title="Free Code Camp" description="Follow the curriculum to learn web development and much more!" />
+    
 </div>
 
 <style>
-    .outgoing-links {
+    .outgoing-links-box {
         display: flex;
-        flex-direction: column;
-        width: 50%;
-        margin: .5rem 0;
-        border-left: 5px solid var(--clr-black-blue);
-        border-radius: .5rem;
-        justify-content: center;
-        padding: 1rem;
-        background-color: var(--clr-black-blue-25);
+        justify-content: space-around;
+        
     }
     @media only screen and (max-width: 720px) {
+        .outgoing-links-box {
+            flex-direction: column;
+        }
         h2 {
             text-align: center;
         }
