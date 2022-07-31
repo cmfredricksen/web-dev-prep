@@ -7,8 +7,10 @@ tags:
     - coding
 ---
 
+### **SvelteKit is in Beta**
+<small>Check the <a href="https://kit.svelte.dev/docs/introduction" target="_blank">Docs</a>
 
-At this time, the summer of 2022, SvelteKit is still in beta. I am still using it for all of my projects, and I am trying to get a real in depth understanding of how it works.
+### Kit Settings
 
 I like to use a lib file for my header, footer and any components I need. The items inside of the lib folder are accessible using $lib rather than the path to said item. Below is an example:
 

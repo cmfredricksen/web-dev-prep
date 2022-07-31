@@ -6,6 +6,9 @@ tags:
 date: 2022-06-11
 ---
 
+### **SvelteKit is in Beta**
+<small>Check the <a href="https://kit.svelte.dev/docs/introduction" target="_blank">Docs</a>
+
 ### What you need to know
 
 - JavaScript
@@ -41,7 +44,7 @@ cd my-app
 Once you are in the directory you want, you are going to initialize your project:
 
 ```bash
-npm create svelte@latest
+npm create svelte
 ```
 
 You will be prompted to make some choices, for this tutorial we are going with basics but you can choose what you want.
