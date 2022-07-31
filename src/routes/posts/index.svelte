@@ -73,17 +73,4 @@
     .title-link:hover {
         color: var(--clr-accent);
     }
-    /* .date {
-        color: var(--clr-accent);
-    }
-    .tag {
-        text-decoration: none;
-        font-weight: normal;
-        color: var(--clr-grey-blue-xlt);
-        background-color: var(--clr-black-blue-50);
-        padding: 0 .25rem;
-    }
-    .tag:hover {
-        color: var(--clr-accent);
-    } */
 </style>
