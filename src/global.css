@@ -26,8 +26,8 @@
 
 body {
     background-color: var(--clr-grey-blue-lt);
-    color: var(--clr-black-blue);
     font-size: 1.25rem;
+    color: var(--clr-black-blue);
 }
 
 h1, h2, h3 {

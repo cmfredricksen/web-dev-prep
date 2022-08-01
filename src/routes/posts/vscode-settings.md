@@ -63,19 +63,20 @@ I remember when I first used VSCode thinking I would never use half of the featu
         border-bottom: none;
     }
     strong {
-        /* text-decoration: underline; */
+        text-decoration: underline;
         color: var(--clr-black-blue);
     }
     em {
-        color: var(--clr-grey-blue-lt);
         background: var(--clr-black-blue-25);
         padding: .25rem .5rem;
+        color: var(--clr-grey-blue-xlt);
     }
     p {
         line-height: 1.5;
     }
-    .em-text {
+    em.em-text {
         background-color: var(--clr-black-blue-50);
+        /* color: white; */
     }
 </style>
 
