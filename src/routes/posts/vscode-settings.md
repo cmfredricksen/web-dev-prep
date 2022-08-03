@@ -63,7 +63,6 @@ I remember when I first used VSCode thinking I would never use half of the featu
         border-bottom: none;
     }
     strong {
-        text-decoration: underline;
         color: var(--clr-black-blue);
     }
     em {
@@ -76,7 +75,6 @@ I remember when I first used VSCode thinking I would never use half of the featu
     }
     em.em-text {
         background-color: var(--clr-black-blue-50);
-        /* color: white; */
     }
 </style>
 
